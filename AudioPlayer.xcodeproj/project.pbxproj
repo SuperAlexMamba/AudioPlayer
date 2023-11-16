@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD5A50352B06A00500087106 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5A50342B06A00500087106 /* AppDelegate.swift */; };
+		DD5A50372B06A00500087106 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5A50362B06A00500087106 /* SceneDelegate.swift */; };
+		DD5A503C2B06A00500087106 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD5A503A2B06A00500087106 /* Main.storyboard */; };
+		DD5A503E2B06A00600087106 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD5A503D2B06A00600087106 /* Assets.xcassets */; };
+		DD5A50412B06A00600087106 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD5A503F2B06A00600087106 /* LaunchScreen.storyboard */; };
+		DD5A504A2B06A16600087106 /* Sage the Gemini Kool John - College Drop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD5A50492B06A16600087106 /* Sage the Gemini Kool John - College Drop.mp3 */; };
+		DD5A504E2B06A17500087106 /* The Weekend - Save your tears .mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD5A504B2B06A17500087106 /* The Weekend - Save your tears .mp3 */; };
+		DD5A504F2B06A17500087106 /* Snoop Dogg - Sweat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD5A504C2B06A17500087106 /* Snoop Dogg - Sweat.mp3 */; };
+		DD5A50502B06A17500087106 /* Akon - Smack That.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD5A504D2B06A17500087106 /* Akon - Smack That.mp3 */; };
+		DD5A50522B06A1AA00087106 /* TrackListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5A50512B06A1AA00087106 /* TrackListViewController.swift */; };
+		DD5A50542B06A4CE00087106 /* TrackListModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5A50532B06A4CE00087106 /* TrackListModelView.swift */; };
+		DD5A50562B06A89B00087106 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5A50552B06A89B00087106 /* Model.swift */; };
+		DD5A50582B08135200087106 /* CurrentTrackController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5A50572B08135200087106 /* CurrentTrackController.swift */; };
+		DD5A505A2B08BEC100087106 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5A50592B08BEC100087106 /* Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DD5A50312B06A00500087106 /* AudioPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD5A50342B06A00500087106 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD5A50362B06A00500087106 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DD5A503B2B06A00500087106 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD5A503D2B06A00600087106 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD5A50402B06A00600087106 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD5A50422B06A00600087106 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD5A50492B06A16600087106 /* Sage the Gemini Kool John - College Drop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Sage the Gemini Kool John - College Drop.mp3"; sourceTree = "<group>"; };
+		DD5A504B2B06A17500087106 /* The Weekend - Save your tears .mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Weekend - Save your tears .mp3"; sourceTree = "<group>"; };
+		DD5A504C2B06A17500087106 /* Snoop Dogg - Sweat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Snoop Dogg - Sweat.mp3"; sourceTree = "<group>"; };
+		DD5A504D2B06A17500087106 /* Akon - Smack That.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Akon - Smack That.mp3"; sourceTree = "<group>"; };
+		DD5A50512B06A1AA00087106 /* TrackListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackListViewController.swift; sourceTree = "<group>"; };
+		DD5A50532B06A4CE00087106 /* TrackListModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackListModelView.swift; sourceTree = "<group>"; };
+		DD5A50552B06A89B00087106 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		DD5A50572B08135200087106 /* CurrentTrackController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentTrackController.swift; sourceTree = "<group>"; };
+		DD5A50592B08BEC100087106 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD5A502E2B06A00500087106 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD5A50282B06A00500087106 = {
+			isa = PBXGroup;
+			children = (
+				DD5A50332B06A00500087106 /* AudioPlayer */,
+				DD5A50322B06A00500087106 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD5A50322B06A00500087106 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD5A50312B06A00500087106 /* AudioPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD5A50332B06A00500087106 /* AudioPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				DD5A50482B06A14000087106 /* Music_FIles */,
+				DD5A50342B06A00500087106 /* AppDelegate.swift */,
+				DD5A50512B06A1AA00087106 /* TrackListViewController.swift */,
+				DD5A50532B06A4CE00087106 /* TrackListModelView.swift */,
+				DD5A50572B08135200087106 /* CurrentTrackController.swift */,
+				DD5A50592B08BEC100087106 /* Extension.swift */,
+				DD5A50362B06A00500087106 /* SceneDelegate.swift */,
+				DD5A50552B06A89B00087106 /* Model.swift */,
+				DD5A503A2B06A00500087106 /* Main.storyboard */,
+				DD5A503D2B06A00600087106 /* Assets.xcassets */,
+				DD5A503F2B06A00600087106 /* LaunchScreen.storyboard */,
+				DD5A50422B06A00600087106 /* Info.plist */,
+			);
+			path = AudioPlayer;
+			sourceTree = "<group>";
+		};
+		DD5A50482B06A14000087106 /* Music_FIles */ = {
+			isa = PBXGroup;
+			children = (
+				DD5A50492B06A16600087106 /* Sage the Gemini Kool John - College Drop.mp3 */,
+				DD5A504D2B06A17500087106 /* Akon - Smack That.mp3 */,
+				DD5A504C2B06A17500087106 /* Snoop Dogg - Sweat.mp3 */,
+				DD5A504B2B06A17500087106 /* The Weekend - Save your tears .mp3 */,
+			);
+			path = Music_FIles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD5A50302B06A00500087106 /* AudioPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD5A50452B06A00600087106 /* Build configuration list for PBXNativeTarget "AudioPlayer" */;
+			buildPhases = (
+				DD5A502D2B06A00500087106 /* Sources */,
+				DD5A502E2B06A00500087106 /* Frameworks */,
+				DD5A502F2B06A00500087106 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioPlayer;
+			productName = AudioPlayer;
+			productReference = DD5A50312B06A00500087106 /* AudioPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD5A50292B06A00500087106 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					DD5A50302B06A00500087106 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = DD5A502C2B06A00500087106 /* Build configuration list for PBXProject "AudioPlayer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD5A50282B06A00500087106;
+			productRefGroup = DD5A50322B06A00500087106 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD5A50302B06A00500087106 /* AudioPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD5A502F2B06A00500087106 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD5A50412B06A00600087106 /* LaunchScreen.storyboard in Resources */,
+				DD5A50502B06A17500087106 /* Akon - Smack That.mp3 in Resources */,
+				DD5A504A2B06A16600087106 /* Sage the Gemini Kool John - College Drop.mp3 in Resources */,
+				DD5A504E2B06A17500087106 /* The Weekend - Save your tears .mp3 in Resources */,
+				DD5A504F2B06A17500087106 /* Snoop Dogg - Sweat.mp3 in Resources */,
+				DD5A503E2B06A00600087106 /* Assets.xcassets in Resources */,
+				DD5A503C2B06A00500087106 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD5A502D2B06A00500087106 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD5A50562B06A89B00087106 /* Model.swift in Sources */,
+				DD5A50522B06A1AA00087106 /* TrackListViewController.swift in Sources */,
+				DD5A50352B06A00500087106 /* AppDelegate.swift in Sources */,
+				DD5A505A2B08BEC100087106 /* Extension.swift in Sources */,
+				DD5A50372B06A00500087106 /* SceneDelegate.swift in Sources */,
+				DD5A50542B06A4CE00087106 /* TrackListModelView.swift in Sources */,
+				DD5A50582B08135200087106 /* CurrentTrackController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DD5A503A2B06A00500087106 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD5A503B2B06A00500087106 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD5A503F2B06A00600087106 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD5A50402B06A00600087106 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD5A50432B06A00600087106 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD5A50442B06A00600087106 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD5A50462B06A00600087106 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B8NB6YD92C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AudioPlayer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.mamba.AudioPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD5A50472B06A00600087106 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B8NB6YD92C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AudioPlayer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.mamba.AudioPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD5A502C2B06A00500087106 /* Build configuration list for PBXProject "AudioPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD5A50432B06A00600087106 /* Debug */,
+				DD5A50442B06A00600087106 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD5A50452B06A00600087106 /* Build configuration list for PBXNativeTarget "AudioPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD5A50462B06A00600087106 /* Debug */,
+				DD5A50472B06A00600087106 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD5A50292B06A00500087106 /* Project object */;
+}
